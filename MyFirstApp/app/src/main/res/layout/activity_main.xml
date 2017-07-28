@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:padding="15dp"-->
+    <!--android:orientation="vertical"-->
+    <!--android:weightSum="1">-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="First Number"-->
+        <!--android:inputType="number"-->
+        <!--tools:layout_editor_absoluteX="53dp"-->
+        <!--tools:layout_editor_absoluteY="132dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Second Number"-->
+        <!--android:inputType="number"-->
+        <!--tools:layout_editor_absoluteX="53dp"-->
+        <!--tools:layout_editor_absoluteY="203dp" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="51dp"-->
+        <!--android:onClick="onButtonClick"-->
+        <!--android:text="Sum"-->
+        <!--tools:layout_editor_absoluteX="53dp"-->
+        <!--tools:layout_editor_absoluteY="273dp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="213dp"-->
+        <!--android:layout_height="42dp"-->
+        <!--android:text="Result"-->
+        <!--tools:layout_editor_absoluteX="53dp"-->
+        <!--tools:layout_editor_absoluteY="64dp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPassword" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Show Password"-->
+        <!--tools:layout_editor_absoluteX="53dp"-->
+        <!--tools:layout_editor_absoluteY="273dp" />-->
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/checkBox_dog"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Dog" />-->
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/checkBox_cat"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Cat" />-->
+
+    <!--<CheckBox-->
+        <!--android:id="@+id/checkBox_cow"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Cow" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_select"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Select" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Ratings" />-->
+
+    <!--<RatingBar-->
+        <!--android:id="@+id/ratingBar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:numStars="5"-->
+        <!--android:rating="2"-->
+        <!--android:stepSize="1" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_rating"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Submit Ratings" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_alart"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="alert" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_second_activity"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="open second activitiy"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginLeft="60dp"-->
+        <!--android:layout_marginStart="62dp"-->
+        <!--android:layout_marginTop="205dp"-->
+
+        <!--/>-->
+
+    <!--<AnalogClock-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/analogClock"-->
+        <!--android:layout_below="@+id/digitalClock"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="35dp" />-->
+
+    <!--<DigitalClock-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/digitalClock"-->
+        <!--android:layout_toEndOf="@+id/button"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignLeft="@+id/analogClock"-->
+        <!--android:layout_alignStart="@+id/analogClock" />-->
+
+    <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Swap Clock"-->
+        <!--android:id="@+id/button_swap_clock"-->
+        <!--android:layout_below="@+id/analogClock"-->
+        <!--android:layout_alignLeft="@+id/analogClock"-->
+        <!--android:layout_alignStart="@+id/analogClock"-->
+        <!--android:layout_marginTop="86dp" />-->
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@mipmap/test_img"-->
+        <!--android:layout_weight="1.02" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_img"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="swatch image" />-->
+
+    <!--<ListView-->
+        <!--android:id="@+id/list_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+
+    <!--<SeekBar-->
+        <!--android:id="@+id/seekBar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="TextView" />-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button_url"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="OPEN URL" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="https://www.facebook.com" />-->
+
+    <!--<WebView-->
+        <!--android:id="@+id/webView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+
+    <!--<AutoCompleteTextView-->
+        <!--android:id="@+id/autoCompleteTextView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Enter Country Name" />-->
+    <!--<TimePicker-->
+        <!--android:id="@+id/timePicker"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_show_time"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Show Time" />-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button_show_time_picker"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Show Time Picker Dialog" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_show_notify_me"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Show Notify" />-->
+
+
+    <!--<EditText-->
+        <!--android:id="@+id/id"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="ID" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/fullName"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Name" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/surName"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Sur Name" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/marks"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Marks" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_add_data"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Add Data" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_view_data"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="View Data" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_update_data"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Update Data " />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_delete_data"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="delete Data" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView_activity_A"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Activity A" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_open_b"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Open B"-->
+        <!--android:onClick="openA"/>-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button_start_service"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Start Service"-->
+        <!--android:onClick="startService"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button_stop_service"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Stop Service"-->
+        <!--android:onClick="stopService"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText_random"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Show Random Number" />-->
+
+
+    <!--<TextView-->
+        <!--style="@style/myStyle1"-->
+        <!--android:id="@+id/textView_random_number"-->
+        <!--android:text="TextView" />-->
+
+    <!--<Button-->
+        <!--style="@style/myStyle2"-->
+        <!--android:id="@+id/button_random_number"-->
+        <!--android:text="Generate Random Number"-->
+        <!--android:onClick="getRandomNumber"/>-->
+
+<!--</LinearLayout>-->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read"
+        android:id="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="read"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Write"
+        android:id="@+id/button"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="write" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:lines="6" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Large Text"
+        android:id="@+id/textView"
+        android:lines="6"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
